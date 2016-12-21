@@ -40,7 +40,7 @@
 
 - (UIImage *)activityImage
 {
-    return [UIImage imageNamed:@"LINEActivityIcon.png"];
+    return [UIImage imageNamed:@"LINEActivityIcon.png" inBundle:[NSBundle bundleForClass:[self class]] compatibleWithTraitCollection:nil];
 }
 
 - (NSString *)activityTitle
